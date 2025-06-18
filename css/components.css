@@ -1,0 +1,10 @@
+.Diseños {
+    background: white;
+    border: 1px solid #eb9114;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.Diseños:hover {
+    transform: scale (1.05);
+}

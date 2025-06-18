@@ -1,0 +1,18 @@
+body {
+    font-family: var(--fuente-base);
+    background-color: var(--color-secundario);
+    color: #333;
+    text-align: center;
+    padding: 2rem;
+}
+
+.encabezado {
+    background-color: var(--color-primario);
+    color:rgb(240, 179, 86);
+    padding: var(--espaciado-base);
+    text-align:center;
+}
+
+.contenido {
+    padding: var(--espaciado-base)
+}
