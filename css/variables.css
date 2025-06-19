@@ -1,26 +1,22 @@
 :root {
-    --color-primario: #8E44AD;
-    --color-secondario: #F39C12;
-    --color-accent: #E74C3C;
-    --color-dark: #2C3E50;
-    --color-light: #ECF0F1;
-    --color-white: #FFFFFF;
-    --color-black: #000000; 
+  --color-primario: #6D28D9;
+  --color-secundario: #F59E0B;
+  --color-oscuro: #1F2937;
+  --color-claro: #F3F4F6;
+  --color-blanco: #FFFFFF;
+  
 
-    --font-primario: 'Montserrat', sans-serif;
-    --font-secondario: 'Poppins', sans-serif;
+  --espacio-xs: 0.5rem;
+  --espacio-sm: 1rem;
+  --espacio-md: 1.5rem;
+  --espacio-lg: 2rem;
+  --espacio-xl: 3rem;
+  
 
-    --size-xxs: 0.25rem;
-    --size-xs: 0.5rem;
-    --size-sm: 0.75rem;
-    --size-base: 1rem;
-    --size-lg: 1.25rem;
-    --size-xl: 1.5rem;
-    --size-2xl: 1.75rem;
-    --size-3xl: 2rem;
-    --size-4xl: 2.5rem;
-    --size-5xl: 3rem;
+  --fuente-texto: 'Montserrat', sans-serif;
+  --fuente-titulos: 'Poppins', sans-serif;
+  
 
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    
+  --borde: 1px solid #E5E7EB;
 }
+ 

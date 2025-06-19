@@ -2,3 +2,31 @@
 @import url('variables.css');
 @import url('layout.css');
 @import url('components.css');
+
+.logo_imagen {
+  max-height: 60px;
+  margin: 0 auto var(--espacio-md);
+}
+
+.contacto__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--espacio-xl);
+  margin-top: var(--espacio-lg);
+}
+
+.contacto-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-md);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.footer__logo {
+  margin-bottom: var(--espacio-xs);
+}
