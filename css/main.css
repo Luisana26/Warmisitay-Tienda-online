@@ -30,3 +30,23 @@
 .footer__logo {
   margin-bottom: var(--espacio-xs);
 }
+
+
+@media (max-width: 768px) {
+  .productos_grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contacto__container {
+    grid-template-columns: 1fr;
+    gap: var(--espacio-md);
+  }
+  
+  .portada_titulo {
+    font-size: 2rem;
+  }
+  
+  .portada_subtitulo {
+    font-size: 1.25rem;
+  }
+}

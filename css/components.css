@@ -148,11 +148,3 @@
   background: var(--color-oscuro);
 }
 
-.fondo-plomo {
-  background-color: #d19240;
-  background-image: url('../img/portada.jpg'); 
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: var(--espacio-xl) 0;
-}
