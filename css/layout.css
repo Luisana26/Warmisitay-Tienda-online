@@ -1,5 +1,5 @@
 .encabezado {
-  background: var(--color-blanco);
+  background: var(--color-marron);
   padding: var(--espacio-sm) 0;
   position: sticky;
   top: 0;
@@ -16,6 +16,11 @@
   padding: 0 var(--espacio-sm);
 }
 
+.portada_imagen {
+  width: 900px;
+  height: 300px;
+}
+
 .nav_menu {
   display: flex;
   gap: var(--espacio-md);
@@ -27,18 +32,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/hero-bg.jpg');
+  background: linear-gradient(rgba(239, 195, 159, 0.5), rgba(236, 213, 213, 0.5)), url('../img/portada.jpg');
   background-size: cover;
   background-position: center;
-  color: var(--color-blanco);
+  color: var(--color-marron);
   text-align: center;
   padding: var(--espacio-xl);
 }
 
 .productos {
-  padding: var(--espacio-xl) var(--espacio-sm);
+  padding: var(--espacio-xl) var(--espacio-xl);
   max-width: 1200px;
   margin: 0 auto;
+  color: #160f03;
+  background-color: var(--color-beige);
 }
 
 .contacto {
@@ -57,11 +64,11 @@
 
 .footer {
   background: var(--color-oscuro);
-  color: var(--color-blanco);
+  color: var(--color-marron);
   padding: var(--espacio-xl) var(--espacio-sm);
 }
 
-.footer__container {
+.footer_container {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
@@ -69,7 +76,7 @@
   gap: var(--espacio-lg);
 }
 
-.footer__logo {
+.footer_logo {
   width: 200px; 
   height: auto;
 }

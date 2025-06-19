@@ -1,3 +1,7 @@
+.nav_menu {
+  color: var(--color-claro);
+}
+
 .producto-1 {
   background: var(--color-blanco);
   border: var(--borde);
@@ -50,12 +54,12 @@
 
 .producto-1_button {
   background: var(--color-primario);
-  color: var(--color-blanco);
+  color: var(--color-claro);
   padding: var(--espacio-xs) var(--espacio-sm);
-  border-radius: 4px;
+  border-radius: 50px;
   cursor: pointer;
   transition: 0.3s ease;
-  margin-top: var(--espacio-xs);
+  margin-top: var(--espacio-xl);
 }
 
 .producto-1_button:hover {
@@ -79,12 +83,18 @@
   color: var(--color-secundario);
 }
 
+.portada_texto {
+  font-size: 1.5rem;
+  margin-bottom: var(--espacio-md);
+  color: var(--color-secundario);
+}
+
 .portada_boton {
   display: inline-block;
-  background: var(--color-primario);
-  color: var(--color-blanco);
+  background: var(--color-claro);
+  color: var(--color-marron);
   padding: var(--espacio-sm) var(--espacio-md);
-  border-radius: 4px;
+  border-radius: 50px;
   margin-top: var(--espacio-md);
   transition: 0.3s ease;
 }
@@ -137,7 +147,7 @@
 .contacto-form__button {
   align-self: flex-start;
   background: var(--color-primario);
-  color: var(--color-blanco);
+  color: var(--color-claro);
   padding: var(--espacio-sm) var(--espacio-md);
   border-radius: 4px;
   cursor: pointer;
