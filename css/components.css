@@ -1,10 +1,40 @@
-.Diseños {
-    background: white;
-    border: 1px solid #eb9114;
-    padding: 1rem;
-    transition: transform 0.3s ease;
+.button {
+  display: inline-block;
+  padding: var(--size-sm) var(--size-xl);
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  border: 2px solid transparent;
 }
 
-.Diseños:hover {
-    transform: scale (1.05);
+.button--primario {
+  background-color: var(--color-primario);
+  color: var(--color-white);
+}
+
+.button--primario:hover {
+  background-color: transparent;
+  border-color: var(--color-primario);
+  color: var(--color-primario);
+  transform: translateY(-2px);
+}
+
+.button--secondario {
+  background-color: var(--color-secondario);
+  color: var(--color-white);
+}
+.button--secondario:hover {
+  background-color: transparent;
+  border-color: var(--color-secondario);
+  color: var(--color-secondario);
+  transform: translateY(-2px);
+
+}
+
+.product-card__figure {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
 }

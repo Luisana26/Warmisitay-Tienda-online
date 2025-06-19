@@ -5,63 +5,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warmsitay-Tienda online</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="encabezado">
-        <h1 class="encabezado_titulo">Warmisitay-Página online</h1>
-        <p class="encabezado_parrafo"><b>Moda moderna con alma andina</b></p>
+        <div class="encabezado_container">
+            <a href="." class="encabezado_logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav_menu">
+                    <li class="nav_item"><a href="#inicio" class="nav_link">Inicio</a></li>
+
+                    <li class="nav_item"><a href=#catálogo class="nav_link">Catálogo</a></li>
+
+                    <li class="nav_item"><a href=#contacto class="nav_link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div> 
     </header>
-    <main class="contenido">
-        <section class="Portada">
-        <h2>Bienvenidos</h2>
-        <p>Descubre una fusión de tradición y estilo contemporáneo</p>
+
+    <main>
+        <section id="inicio"class="portada">
+            <div class="portada_contenido">
+                <img src="img/logo.png" alt="Logo" class="logo_imagen">
+                    <h1 class="portada_titulo">Warmisitay</h1>
+                    <p class="portada_subtitulo">Moda que honra tus raíces</p>
+                    <p class="portada_texto">Explora prendas únicas inspiradas en el corazón andino, descubre unaa fusión de tradición y estilo contemporáneo</p>
+                    <a href="#productos" class="portada_boton">Ver nuestra colección</a>
+            </div>
+            
         </section>
 
-        <section class="catálogo">
-            <h2>Nuestros Productos</h2>
-            <div class="Productos">
-                <article class="Diseños">
+        <section id= "catálogo" class="productos">
+            <div class="seccion_header">
+                <h2 class="seccion_titulo">Nuestra Colección</h2>
+                <p class="seccion_subtitulo">Cada pieza cuenta una historia</p>
+            </div>
+            <div class="productos_grid">
+
+
+                <article class="producto-1">
+                    <figure class="producto-1_figura">
                         <img src="img/PRODUCTO1.jpeg" alt="Casaca andina" class="Producto1_imagen">
-                        <h3>Casaca Jean con bordado andino</h3>
-                        <p>S/.75</p>
+                            <figcaption class="producto-1_figcaption">Casaca Jean + Bordado Andino</figcaption>
+                    </figure>
+                    <div class="producto-1_contenido">
+                        <h3 class="producto-1_titulo">Casaca Jean Bordada</h3>
+                        <p class="producto-1_descripcion">Jean clásico con bordados inspirados en los tejidos de las comunidades quechuas.</p>
+                        <p class="producto-1_precio"><b>S/.75.00</b></p>
+                        <button class="producto-1_button">Añadir al carrito</button>
+                    </div>
                 </article>
-                <article class="Diseños">
-                        <img src="img/PRODUCTO2.jpg" alt="Chompa andina moderna" class="Producto2_imagen">
-                        <h3>Chompa andina moderna</h3>
-                        <p>S/.50</p>
+
+                <article class="producto-1">
+                    <figure class="producto-1_figura">
+                        <img src="img/PRODUCTO2.jpg" alt="Chompa andina moderna" class="producto-2_imagen">
+                            <figcaption class="producto-1_figcaption">Chompa Andina moderna</figcaption>
+                    </figure>
+                    <div class="producto-1_contenido">
+                        <h3 class="producto-1_titulo">Chompa Andina</h3>
+                        <p class="producto-1_descripcion">Chompa de lana de alpaca con diseños tradicionales reinterpretados.</p>
+                        <p class="producto-1_precio"><b>S/ 50.00</b></p>
+                        <button class="producto-1_button">Añadir al carrito</button>
+                    </div>
                 </article>
-                <article class="Diseños">
-                        <img src="img/PRODUCTO3.jpg" alt="Poncho unisex" class="Producto3_imagen">
-                        <h3>Poncho unisex</h3>
-                        <p>S/.60</p>
+
+                <article class="producto-1">
+                    <figure class="producto-1_figure">
+                        <img src="img/PRODUCTO3.jpg" alt="Poncho unisex" class="producto3_imagen">
+                        <figcaption class="producto-1_figcaption">Poncho Unisex</figcaption>
+                    </figure>
+                    <div class="producto-1_contenido">
+                        <h3 class="producto-1_titulo">Poncho Unisex</h3>
+                        <p class="producto-1_descripcion">Poncho versátil con iconografía andina, ideal para cualquier ocasión.</p>
+                        <p class="producto-1_precio"><b>S/ 80.00</b></p>
+                        <button class="producto-1_button">Añadir al carrito</button>
+                    </div>
                 </article>
-                <article class="Diseños">
+
+                <article class="producto-1">
+                    <figure class="producto-1_figure"></figure>
                         <img src="img/PRODUCTO4.jpg" alt="Faja cinturón tejido" class="Producto4_imagen">
-                        <h3>Faja cinturón tejido</h3>
-                        <p>S/.30</p>
+                            <figcaption class="producto-1_figcaption">Faja Cinturón Tejido</figcaption>
+                    </figure>
+                    <div class="producto-1_contenido">
+                        <h3 class="producto-1_titulo">Faja Cinturón</h3>
+                        <p class="producto-1_descripcion">Cinturón tejido a mano con técnicas ancestrales, complemento perfecto.</p>
+                    <p class="producto-1_precio"><b>S/ 35.00</b></p>
+                    <button class="producto-1_button">Añadir al carrito</button>
                 </article>
-                <article class="Diseños">
+
+                <article class="producto-1">
+                    <figure class="producto-1_figure"></figure>
                         <img src="img/PRODUCTO5.jpg" alt="Falda tejida" class="Producto5_imagen">
-                        <h3>Falda tejida</h3>
-                        <p>S/.45</p>
+                        <figcaption class="producto-1_figcaption">Falda Tejida Andina</figcaption>
+                    </figure>
+                    <div class="producto-1_contenido">
+                        <h3 class="producto-1_titulo">Falda Tejida</h3>
+                        <p class="producto-1_descripcion">Falda con tejidos tradicionales y corte moderno para el día a día.</p>
+                        <span class="producto-1_precio">S/ 179.00</span>
+                        <button class="producto-1_button">Añadir al carrito</button>
+                    </div>
                 </article>
             </div>
         </section>
 
-        <section>
-            <h2>Contáctanos</h2>
-            <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required />
-                <label for="correo">Correo:</label>
-                <input type="email" id="correo" name="correo" required />
-                <button type="submit">Enviar</button>
-            </form>
+        <section id="contacto" class="contacto">
+            <div class="seccion_header">
+                <h2 class="seccion_titulo">Conéctate con nosotros</h2>
+                <p class="seccion_subtitulo">Mantente al día con nuestras novedades</p>
+            </div>
+            
+            <div class="contacto__container">
+                <form class="contacto-form">
+                    <div class="contacto-form__group">
+                        <label for="name" class="contacto-form__label">Nombre</label>
+                        <input type="text" id="name" class="contacto-form__input" required>
+                    </div>
+                    <div class="contacto-form__group">
+                        <label for="email" class="contacto-form__label">Correo electrónico</label>
+                        <input type="email" id="email" class="contacto-form__input" required>
+                    </div>
+                    <div class="contacto-form__group">
+                        <label for="message" class="contacto-form__label">Mensaje</label>
+                        <textarea id="message" class="contacto-form__textarea" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="contacto-form__button button button--primary">Enviar</button>
+                </form>
+                
+                <div class="contacto-info">
+                    <h3 class="contacto-info__title">Visítanos</h3>
+                    <address class="contacto-info__address">
+                        <p>Av. Francisco Bolognesi 292 <br>
+                        Barranco, Lima-Perú</p>
+                    </address>
+                    <h3 class="contacto-info__title">Síguenos</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-links__link" aria-label="Instagram">
+                            <p class="social-links__icon">📷</p> @warmisitay
+                        </a>
+                        <a href="#" class="social-links__link" aria-label="Facebook">
+                            <p class="social-links__icono">👍</p> /warmisitaymoda
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>© 2025 Warmisitay. Todos los derechos reservados.</p>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__div">
+                <img src="img/logo.png" alt="Warmisitay" class="footer__logo" width="150" height="50">
+                <p class="footer__slogan">Moda con identidad cultural</p>
+            </div>
+            <div class="footer__links">
+                <h4 class="footer__titulo">Enlaces</h4>
+                <ul class="footer__lista">
+                    <li><a href="#inicio" class="footer__link">Inicio</a></li>
+                    <li><a href="#catálogo" class="footer__link">Productos</a></li>
+                    <li><a href="#contacto" class="footer__link">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__legal">
+                <p class="footer__copyright">© 2023 Warmisitay. Todos los derechos reservados.</p>
+                <p class="footer__mensaje-final">Hecho con ❤️ en Perú</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

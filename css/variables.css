@@ -1,7 +1,26 @@
 :root {
-    --color-primario: #572f07;
-    --color-secundario:#f2ddacee;
-    --color-body:#c19c0c;
-    --fuente-base:"Calibri", serif;
-    --espaciado-base:1rem;
+    --color-primario: #8E44AD;
+    --color-secondario: #F39C12;
+    --color-accent: #E74C3C;
+    --color-dark: #2C3E50;
+    --color-light: #ECF0F1;
+    --color-white: #FFFFFF;
+    --color-black: #000000; 
+
+    --font-primario: 'Montserrat', sans-serif;
+    --font-secondario: 'Poppins', sans-serif;
+
+    --size-xxs: 0.25rem;
+    --size-xs: 0.5rem;
+    --size-sm: 0.75rem;
+    --size-base: 1rem;
+    --size-lg: 1.25rem;
+    --size-xl: 1.5rem;
+    --size-2xl: 1.75rem;
+    --size-3xl: 2rem;
+    --size-4xl: 2.5rem;
+    --size-5xl: 3rem;
+
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    
 }

@@ -1,18 +1,208 @@
 body {
-    font-family: var(--fuente-base);
-    background-color: var(--color-secundario);
-    color: #333;
-    text-align: center;
-    padding: 2rem;
+    font-family: var(--font-primario);
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--size-lg);
 }
 
 .encabezado {
-    background-color: var(--color-primario);
-    color:rgb(240, 179, 86);
-    padding: var(--espaciado-base);
-    text-align:center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    box-shadow: var(--shadow-sm);
+    z-index: 100;
 }
 
-.contenido {
-    padding: var(--espaciado-base)
+.encabezado_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--size-sm) 0;
+}
+
+.nav_list {
+  display: flex;
+  gap: var(--size-xl);
+  list-style: none;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-weight: 600;
+  position: relative;
+}
+
+.nav_link:hover {
+  color: var(--color-primario);
+}
+
+.nav_link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-primario);
+}
+
+.nav_link:hover::after {
+  width: 100%;
+}
+
+.seccion {
+    padding: var(--size-4xl) 0;
+}
+
+.seccion_header {
+  text-align: center;
+  margin-bottom: var(--size-4xl);
+}
+
+.seccion_titulo {
+  font-family: var(--font-secondario);
+  font-size: var(--size-4xl);
+  color: var(--color-primario);
+  margin-bottom: var(--size-sm);
+}
+
+.seccion_subtitulo {
+  font-size: var(--size-xl);
+  color: var(--color-secondario);
+}
+
+.portada {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  background-image: url('../img/Portada2.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--size-lg);
+  margin-top: 60px;
+}
+
+.portada_contenido {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  color: var(--color-white);
+}
+
+.portada_titulo {
+  font-family: var(--font-secondario);
+  font-size: var(--size-5xl);
+  margin-bottom: var(--size-sm);
+}
+
+.portada_subtitulo {
+  font-size: var(--size-3xl);
+  margin-bottom: var(--size-lg);
+  color: var(--color-secondario);
+  opacity: 0;
+}
+
+.portada_texto {
+  font-size: var(--size-xl);
+  margin-bottom: var(--size-2xl);
+  opacity: 0;
+}
+
+.producto_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--size-2xl);
+  margin-top: var(--size-2xl);
+}
+
+.contacto__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--size-4xl);
+  margin-top: var(--size-2xl);
+}
+
+.footer {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding: var(--size-3xl) 0;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--size-2xl);
+}
+
+.footer__slogan {
+  margin-top: var(--size-sm);
+  color: var(--color-light);
+}
+
+.footer__list {
+  list-style: none;
+  margin-top: var(--size-sm);
+}
+
+.footer__link {
+  color: var(--color-light);
+  text-decoration: none;
+  display: block;
+  margin-bottom: var(--size-xs);
+}
+
+.footer__link:hover {
+  color: var(--color-secondario);
+}
+
+.footer__copyright {
+  margin-top: var(--size-lg);
+  font-size: var(--size-sm);
+  color: var(--color-light);
+}
+
+.footer__message {
+  margin-top: var(--size-xs);
+  font-size: var(--size-sm);
+  color: var(--color-secondario);
+}
+
+@media (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+  }
+  
+  .hero__title {
+    font-size: var(--size-4xl);
+  }
+  
+  .hero__subtitle {
+    font-size: var(--size-2xl);
+  }
+
+    .hero__text {
+    font-size: var(--size-lg);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
